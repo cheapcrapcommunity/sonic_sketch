@@ -28,6 +28,11 @@ This project focuses mainly on triggering different sounds by hand painting. Map
 
 ---
 
+
+Uploading 2022-04-28 17-30-47(1).mp4…
+
+
+
 ### **Mapping**
 
 To know where the user input is located in the grid, I add Listeners to all the rectangles in the grid, and to distinguish whether the user is in the grid of the natural keys or the grid of the sharps keys (i.e. the intersection), I set the grid of the natural keys to the back and the grid of the sharps key to the front as follow: 
@@ -87,24 +92,12 @@ This is the basic diagram of my code flow.
 
 1. For the optional audio response, I designed several types of sounds and named each of them. I tried to avoid using overly specialized musicological vocabulary such as type of waveforms, tones or timbres. Instead, I used the words like "moody-mario”, "chatty_cat”, "spy_radio”, "street_guru”, "whistle-bot” and "drum-bot” to describe the options of sounds. 
 
-
-![11](https://user-images.githubusercontent.com/76624368/166159055-f6acced8-f21a-4b2f-9afb-740ba939412f.png)
-
-Audio output options menu
-
-1. In addition, I visualised the output sound waveform with the main aim of making the interaction more vivid. 
-
-![12](https://user-images.githubusercontent.com/76624368/166159056-9bbb1e22-8d53-4cb4-a209-ec03b3ceeede.png)
-
-Waveform visualizetion.
+2. In addition, I visualised the output sound waveform with the main aim of making the interaction more vivid. 
 
 However I have not visualised the drum samples, the reason being that the drum samples come in the assets, not the synthesis. I think the ultimate solution would be to use FFT uniformly for all outputs to get visual feedback, but I haven't found a solution that works on Windows yet.
 
-1. I think the most distinctive aspect of this canvas is that although it appears to be flat, there is an implied double mapping of the grid in front and the grid behind. As the user draws past the intersection, the grid in front is triggered without triggering the grid behind. This is actually a bit three-dimensional.
+3. I think the most distinctive aspect of this canvas is that although it appears to be flat, there is an implied double mapping of the grid in front and the grid behind. As the user draws past the intersection, the grid in front is triggered without triggering the grid behind. This is actually a bit three-dimensional.
 
-![GIF 01-05-2022 00-04-48](https://user-images.githubusercontent.com/76624368/166159060-d2ed9777-664e-434c-95c8-2c64b3a7cc12.gif)
-
-Debugging process.
 
 
 ## Conclusion
