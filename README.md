@@ -1,9 +1,5 @@
 
 
-# Project Space of Sonic Sketch
-
-# **Project introduction**
-
 ## Abstract
 
 This project space is about extending the boundaries of the canvas on the screen as a dumb device so that it crosses over into the realm of music and thus allows for some creative interaction with the user.
@@ -28,12 +24,7 @@ This project focuses mainly on triggering different sounds by hand painting. Map
 
 ---
 
-
-Uploading 2022-04-28 17-30-47(1).mp4…
-
-
-
-### **Mapping**
+## **Mapping**
 
 To know where the user input is located in the grid, I add Listeners to all the rectangles in the grid, and to distinguish whether the user is in the grid of the natural keys or the grid of the sharps keys (i.e. the intersection), I set the grid of the natural keys to the back and the grid of the sharps key to the front as follow: 
 
