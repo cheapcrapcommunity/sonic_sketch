@@ -19,7 +19,7 @@ This project focuses mainly on triggering different sounds by hand painting. Map
 **Experiments in mapping strategies**
 
 1. A one-dimensional plane divided into 7*7 grids mapping 49 natural notes(white keys on piano).
-2. A two-dimensional plane, divided into 7*7+5*6 grids, mapping 49 natural keys and 30 sharps and flats(black keys on piano).
+2. A two-dimensional plane, divided into 7*7 + 5*6 grids, mapping 49 natural keys and 30 sharps and flats(black keys on piano).
 
 **Experiments in mapping content**
 
