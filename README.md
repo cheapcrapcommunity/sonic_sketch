@@ -93,8 +93,8 @@ This is the basic diagram of my code flow.
 1. For the optional audio response, I designed several types of sounds and named each of them. I tried to avoid using overly specialized musicological vocabulary such as type of waveforms, tones or timbres. Instead, I used the words like "moody-mario”, "chatty_cat”, "spy_radio”, "street_guru”, "whistle-bot” and "drum-bot” to describe the options of sounds. 
 
 2. In addition, I visualised the output sound waveform with the main aim of making the interaction more vivid. 
-
-However I have not visualised the drum samples, the reason being that the drum samples come in the assets, not the synthesis. I think the ultimate solution would be to use FFT uniformly for all outputs to get visual feedback, but I haven't found a solution that works on Windows yet.
+However I have not visualised the drum samples, the reason being that the drum samples come in the assets, not the synthesis.
+I think the ultimate solution would be to use FFT uniformly for all outputs to get visual feedback, but I haven't found a solution that works on Windows yet.
 
 3. I think the most distinctive aspect of this canvas is that although it appears to be flat, there is an implied double mapping of the grid in front and the grid behind. As the user draws past the intersection, the grid in front is triggered without triggering the grid behind. This is actually a bit three-dimensional.
 
